@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
 
@@ -36,7 +36,7 @@ msgstr "Día"
 
 msgctxt "model:babi.expression,name:account_move_id"
 msgid "ID"
-msgstr "Identificador"
+msgstr "ID"
 
 msgctxt "model:babi.expression,name:account_move_journal"
 msgid "Journal"
@@ -44,7 +44,7 @@ msgstr "Diario"
 
 msgctxt "model:babi.expression,name:account_move_line"
 msgid "ID"
-msgstr "Identificador"
+msgstr "ID"
 
 msgctxt "model:babi.expression,name:account_move_line_account"
 msgid "Account"
