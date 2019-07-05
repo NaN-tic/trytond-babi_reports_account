@@ -389,20 +389,20 @@
             <field name="report" ref="move_year_month_count"/>
             <field name="expression" ref="account_move_year"/>
             <field name="name">Year</field>
-            <field name="sequence">1</field>
+            <field name="sequence" eval="1"/>
         </record>
         <record model="babi.dimension.column" id="move_year_month_count__month">
             <field name="report" ref="move_year_month_count"/>
             <field name="expression" ref="account_move_month"/>
             <field name="name">Month</field>
-            <field name="sequence">2</field>
+            <field name="sequence" eval="2"/>
         </record>
         <record model="babi.measure" id="move_year_month_count__count">
             <field name="report" ref="move_year_month_count"/>
             <field name="expression" ref="account_move_id"/>
             <field name="name">Moves</field>
             <field name="aggregate">count</field>
-            <field name="sequence">1</field>
+            <field name="sequence" eval="1"/>
         </record>
 
 
@@ -425,32 +425,32 @@
             <field name="report" ref="move_line_due_month_week_day"/>
             <field name="expression" ref="account_move_line_due_year"/>
             <field name="name">Year</field>
-            <field name="sequence">1</field>
+            <field name="sequence" eval="1"/>
         </record>
         <record model="babi.dimension" id="move_line_due_month_week_day__week">
             <field name="report" ref="move_line_due_month_week_day"/>
             <field name="expression" ref="account_move_line_due_week"/>
             <field name="name">Week</field>
-            <field name="sequence">2</field>
+            <field name="sequence" eval="2"/>
         </record>
         <record model="babi.dimension" id="move_line_due_month_week_day__day">
             <field name="report" ref="move_line_due_month_week_day"/>
             <field name="expression" ref="account_move_line_due_day"/>
             <field name="name">Day</field>
-            <field name="sequence">3</field>
+            <field name="sequence" eval="3"/>
         </record>
         <record model="babi.dimension" id="move_line_due_month_week_day__partner">
             <field name="report" ref="move_line_due_month_week_day"/>
             <field name="expression" ref="account_move_line_partner"/>
             <field name="name">Party</field>
-            <field name="sequence">4</field>
+            <field name="sequence" eval="4"/>
         </record>
         <record model="babi.measure" id="move_line_due_month_week_day__subtotal">
             <field name="report" ref="move_line_due_month_week_day"/>
             <field name="expression" ref="account_move_line_debit_credit"/>
             <field name="name">Total amount</field>
             <field name="aggregate">sum</field>
-            <field name="sequence">1</field>
+            <field name="sequence" eval="1"/>
         </record>
    </data>
 </tryton>
