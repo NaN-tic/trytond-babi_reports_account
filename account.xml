@@ -2,7 +2,7 @@
 <!-- The COPYRIGHT file at the top level of this repository contains the full
      copyright notices and license terms. -->
 <tryton>
-    <data grouped="1">
+    <data>
         <!-- Filters -->
         <record model="babi.filter" id="income_accounts">
             <field name="name">Income</field>
