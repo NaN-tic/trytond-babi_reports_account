@@ -315,7 +315,7 @@
         <record model="babi.expression" id="account_move_line_payment_type">
             <field name="ttype">char</field>
             <field name="model" search="[('model','=','account.move.line')]"/>
-            <field name="expression">o.payment_type.rec_name</field>
+            <field name="expression">o.payment_type and o.payment_type.rec_name</field>
             <field name="name">Payment Type</field>
         </record>
         <record model="babi.expression" id="account_move_line_period">
