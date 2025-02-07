@@ -6,104 +6,104 @@
         <!-- Filters -->
         <record model="babi.filter" id="income_accounts">
             <field name="name">Income</field>
-            <field name="model" search="[('model', '=', 'account.account')]"/>
+            <field name="model" search="[('name', '=', 'account.account')]"/>
             <field name="domain">[('code', 'ilike', '7')]</field>
         </record>
         <record model="babi.filter" id="expense_accounts">
             <field name="name">Expense</field>
-            <field name="model" search="[('model', '=', 'account.account')]"/>
+            <field name="model" search="[('name', '=', 'account.account')]"/>
             <field name="domain">[('code', 'ilike', '6')]</field>
         </record>
         <record model="babi.filter" id="income_expense_accounts">
             <field name="name">Income &amp; Expense</field>
-            <field name="model" search="[('model', '=', 'account.account')]"/>
+            <field name="model" search="[('name', '=', 'account.account')]"/>
             <field name="domain">['OR', [('code', 'ilike', '6%')], [('code', 'ilike', '7%')]]</field>
         </record>
         <record model="babi.filter" id="debtor_accounts">
             <field name="name">Debtors</field>
-            <field name="model" search="[('model', '=', 'account.account')]"/>
+            <field name="model" search="[('name', '=', 'account.account')]"/>
             <field name="domain">[('code', 'ilike', '43%')]</field>
         </record>
         <record model="babi.filter" id="creditor_accounts">
             <field name="name">Creditors</field>
-            <field name="model" search="[('model', '=', 'account.account')]"/>
+            <field name="model" search="[('name', '=', 'account.account')]"/>
             <field name="domain">['OR', [('code', 'ilike', '40%')], [('code', 'ilike', '41%')]]</field>
         </record>
         <record model="babi.filter" id="debtor_creditor_accounts">
             <field name="name">Debtors &amp; Creditors</field>
-            <field name="model" search="[('model', '=', 'account.account')]"/>
+            <field name="model" search="[('name', '=', 'account.account')]"/>
             <field name="domain">['OR',[('code', 'ilike', '40%')], [('code', 'ilike', '41%')], [('code', 'ilike', '43%')]]</field>
         </record>
         <record model="babi.filter" id="unreconciled_debtor_accounts">
             <field name="name">Unreconciled Debtors</field>
-            <field name="model" search="[('model', '=', 'account.account')]"/>
+            <field name="model" search="[('name', '=', 'account.account')]"/>
             <field name="domain">[('code', 'ilike', '43%')]</field>
         </record>
         <record model="babi.filter" id="unreconciled_creditor_accounts">
             <field name="name">Unreconciled Creditors</field>
-            <field name="model" search="[('model', '=', 'account.account')]"/>
+            <field name="model" search="[('name', '=', 'account.account')]"/>
             <field name="domain">['OR', [('code', 'ilike', '40%')], [('code', 'ilike', '41%')]]</field>
         </record>
         <record model="babi.filter" id="unreconciled_debtor_creditor_accounts">
             <field name="name">Unreconciled Debtors &amp; Creditors</field>
-            <field name="model" search="[('model', '=', 'account.account')]"/>
+            <field name="model" search="[('name', '=', 'account.account')]"/>
             <field name="domain">['OR', [('code', 'ilike', '40%')], [('code', 'ilike', '41%')], [('code', 'ilike', '43%')]]</field>
         </record>
         <record model="babi.filter" id="cash_accounts">
             <field name="name">Cash</field>
-            <field name="model" search="[('model', '=', 'account.account')]"/>
+            <field name="model" search="[('name', '=', 'account.account')]"/>
             <field name="domain">[('code', 'ilike', '57%')]</field>
         </record>
 
         <!-- Account Move Lines -->
         <record model="babi.filter" id="income_move_lines">
             <field name="name">Income</field>
-            <field name="model" search="[('model', '=', 'account.move.line')]"/>
+            <field name="model" search="[('name', '=', 'account.move.line')]"/>
             <field name="domain">[('account', 'ilike', '7%')]</field>
         </record>
         <record model="babi.filter" id="expense_move_lines">
             <field name="name">Expense</field>
-            <field name="model" search="[('model', '=', 'account.move.line')]"/>
+            <field name="model" search="[('name', '=', 'account.move.line')]"/>
             <field name="domain">[('account', 'ilike', '6%')]</field>
         </record>
         <record model="babi.filter" id="income_expense_move_lines">
             <field name="name">Income &amp; Expense</field>
-            <field name="model" search="[('model', '=', 'account.move.line')]"/>
+            <field name="model" search="[('name', '=', 'account.move.line')]"/>
             <field name="domain">['OR',[('account', 'ilike', '6%')],[('account', 'ilike', '7%')]]</field>
         </record>
         <record model="babi.filter" id="debtor_move_lines">
             <field name="name">Debtors</field>
-            <field name="model" search="[('model', '=', 'account.move.line')]"/>
+            <field name="model" search="[('name', '=', 'account.move.line')]"/>
             <field name="domain">[('account', 'ilike', '43%')]</field>
         </record>
         <record model="babi.filter" id="creditor_move_lines">
             <field name="name">Creditors</field>
-            <field name="model" search="[('model', '=', 'account.move.line')]"/>
+            <field name="model" search="[('name', '=', 'account.move.line')]"/>
             <field name="domain">['OR', [('account', 'ilike', '40%')], [('account', 'ilike', '41%')]]</field>
         </record>
         <record model="babi.filter" id="debtor_creditor_move_lines">
             <field name="name">Debtors &amp; Creditors</field>
-            <field name="model" search="[('model', '=', 'account.move.line')]"/>
+            <field name="model" search="[('name', '=', 'account.move.line')]"/>
             <field name="domain">['OR', [('account', 'ilike', '40%')], [('account', 'ilike', '41%')], [('account', 'ilike', '43%')]]</field>
         </record>
         <record model="babi.filter" id="unreconciled_debtor_move_lines">
             <field name="name">Unreconciled Debtors</field>
-            <field name="model" search="[('model', '=', 'account.move.line')]"/>
+            <field name="model" search="[('name', '=', 'account.move.line')]"/>
             <field name="domain">[('reconciliation', '=', None), ('account', 'ilike', '43%')]</field>
         </record>
         <record model="babi.filter" id="unreconciled_creditor_move_lines">
             <field name="name">Unreconciled Creditors</field>
-            <field name="model" search="[('model', '=', 'account.move.line')]"/>
+            <field name="model" search="[('name', '=', 'account.move.line')]"/>
             <field name="domain">[('reconciliation', '=', None), ['OR', [('account', 'ilike', '40%')], [('account', 'ilike', '41%')]]]</field>
         </record>
         <record model="babi.filter" id="unreconciled_debtor_creditor_move_lines">
             <field name="name">Unreconciled Debtors &amp; Creditors</field>
-            <field name="model" search="[('model', '=', 'account.move.line')]"/>
+            <field name="model" search="[('name', '=', 'account.move.line')]"/>
             <field name="domain">[('reconciliation', '=', None), ['OR', [('account', 'ilike', '40%')], [('account', 'ilike', '41%')], [('account', 'ilike', '43%')]]]</field>
         </record>
         <record model="babi.filter" id="cash_move_lines">
             <field name="name">Cash</field>
-            <field name="model" search="[('model', '=', 'account.move.line')]"/>
+            <field name="model" search="[('name', '=', 'account.move.line')]"/>
             <field name="domain">[('account', 'ilike', '57%')]</field>
         </record>
 
@@ -111,80 +111,80 @@
         <!-- account.move.line -->
         <record model="babi.expression" id="account_move_self">
             <field name="ttype">many2one</field>
-            <field name="model" search="[('model','=','account.move')]"/>
+            <field name="model" search="[('name','=','account.move')]"/>
             <field name="expression">o.id</field>
             <field name="name">Move</field>
-            <field name="related_model" search="[('model','=','account.move')]"/>
+            <field name="related_model" search="[('name','=','account.move')]"/>
         </record>
         <record model="babi.expression" id="account_move_id">
             <field name="ttype">integer</field>
-            <field name="model" search="[('model','=','account.move')]"/>
+            <field name="model" search="[('name','=','account.move')]"/>
             <field name="expression">o.id</field>
             <field name="name">ID</field>
         </record>
         <record model="babi.expression" id="account_move_number">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.move')]"/>
+            <field name="model" search="[('name','=','account.move')]"/>
             <field name="expression">o.number</field>
             <field name="name">Number</field>
         </record>
         <record model="babi.expression" id="account_move_post_number">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.move')]"/>
+            <field name="model" search="[('name','=','account.move')]"/>
             <field name="expression">o.post_number</field>
             <field name="name">Post Number</field>
         </record>
         <record model="babi.expression" id="account_move_year">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.move')]"/>
+            <field name="model" search="[('name','=','account.move')]"/>
             <field name="expression">y(o.date)</field>
             <field name="name">Year</field>
         </record>
         <record model="babi.expression" id="account_move_month">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.move')]"/>
+            <field name="model" search="[('name','=','account.move')]"/>
             <field name="expression">m(o.date)</field>
             <field name="name">Month</field>
         </record>
         <record model="babi.expression" id="account_move_day">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.move')]"/>
+            <field name="model" search="[('name','=','account.move')]"/>
             <field name="expression">d(o.date)</field>
             <field name="name">Day</field>
         </record>
         <record model="babi.expression" id="account_move_week">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.move')]"/>
+            <field name="model" search="[('name','=','account.move')]"/>
             <field name="expression">w(o.date)</field>
             <field name="name">Week</field>
         </record>
         <record model="babi.expression" id="account_move_year_month">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.move')]"/>
+            <field name="model" search="[('name','=','account.move')]"/>
             <field name="expression">ym(o.date)</field>
             <field name="name">Year-Month</field>
         </record>
         <record model="babi.expression" id="account_move_date">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.move')]"/>
+            <field name="model" search="[('name','=','account.move')]"/>
             <field name="expression">ymd(o.date)</field>
             <field name="name">Date</field>
         </record>
         <record model="babi.expression" id="account_move_journal">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.move')]"/>
+            <field name="model" search="[('name','=','account.move')]"/>
             <field name="expression">o.journal.rec_name</field>
             <field name="name">Journal</field>
         </record>
         <record model="babi.expression" id="account_move_period">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.move')]"/>
+            <field name="model" search="[('name','=','account.move')]"/>
             <field name="expression">o.period.rec_name</field>
             <field name="name">Period</field>
         </record>
         <record model="babi.expression" id="account_move_state">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.move')]"/>
+            <field name="model" search="[('name','=','account.move')]"/>
             <field name="expression">o.state</field>
             <field name="name">State</field>
         </record>
@@ -192,179 +192,179 @@
         <!-- account.move.line -->
         <record model="babi.expression" id="account_move_line_self">
             <field name="ttype">many2one</field>
-            <field name="model" search="[('model','=','account.move.line')]"/>
+            <field name="model" search="[('name','=','account.move.line')]"/>
             <field name="expression">o.id</field>
             <field name="name">Move Line</field>
-            <field name="related_model" search="[('model','=','account.move.line')]"/>
+            <field name="related_model" search="[('name','=','account.move.line')]"/>
         </record>
         <record model="babi.expression" id="account_move_line">
             <field name="ttype">integer</field>
-            <field name="model" search="[('model','=','account.move.line')]"/>
+            <field name="model" search="[('name','=','account.move.line')]"/>
             <field name="expression">o.id</field>
             <field name="name">ID</field>
         </record>
         <record model="babi.expression" id="account_move_line_year">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.move.line')]"/>
+            <field name="model" search="[('name','=','account.move.line')]"/>
             <field name="expression">y(o.date)</field>
             <field name="name">Year</field>
         </record>
         <record model="babi.expression" id="account_move_line_month">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.move.line')]"/>
+            <field name="model" search="[('name','=','account.move.line')]"/>
             <field name="expression">m(o.date)</field>
             <field name="name">Month</field>
         </record>
         <record model="babi.expression" id="account_move_line_day">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.move.line')]"/>
+            <field name="model" search="[('name','=','account.move.line')]"/>
             <field name="expression">d(o.date)</field>
             <field name="name">Day</field>
         </record>
         <record model="babi.expression" id="account_move_line_week">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.move.line')]"/>
+            <field name="model" search="[('name','=','account.move.line')]"/>
             <field name="expression">w(o.date)</field>
             <field name="name">Week</field>
         </record>
         <record model="babi.expression" id="account_move_line_year_month">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.move.line')]"/>
+            <field name="model" search="[('name','=','account.move.line')]"/>
             <field name="expression">ym(o.date)</field>
             <field name="name">Year-Month</field>
         </record>
         <record model="babi.expression" id="account_move_line_date">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.move.line')]"/>
+            <field name="model" search="[('name','=','account.move.line')]"/>
             <field name="expression">ymd(o.date)</field>
             <field name="name">Date</field>
         </record>
         <record model="babi.expression" id="account_move_line_due_year">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.move.line')]"/>
+            <field name="model" search="[('name','=','account.move.line')]"/>
             <field name="expression">y(o.maturity_date)</field>
             <field name="name">Due Year</field>
         </record>
         <record model="babi.expression" id="account_move_line_due_month">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.move.line')]"/>
+            <field name="model" search="[('name','=','account.move.line')]"/>
             <field name="expression">m(o.maturity_date)</field>
             <field name="name">Due Month</field>
         </record>
         <record model="babi.expression" id="account_move_line_due_day">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.move.line')]"/>
+            <field name="model" search="[('name','=','account.move.line')]"/>
             <field name="expression">d(o.maturity_date)</field>
             <field name="name">Due Day</field>
         </record>
         <record model="babi.expression" id="account_move_line_due_week">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.move.line')]"/>
+            <field name="model" search="[('name','=','account.move.line')]"/>
             <field name="expression">w(o.maturity_date)</field>
             <field name="name">Due Week</field>
         </record>
         <record model="babi.expression" id="account_move_line_due_year_month">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.move.line')]"/>
+            <field name="model" search="[('name','=','account.move.line')]"/>
             <field name="expression">ym(o.maturity_date)</field>
             <field name="name">Due Year-Month</field>
         </record>
         <record model="babi.expression" id="account_move_line_due_date">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.move.line')]"/>
+            <field name="model" search="[('name','=','account.move.line')]"/>
             <field name="expression">ymd(o.maturity_date)</field>
             <field name="name">Due Date</field>
         </record>
         <record model="babi.expression" id="account_move_line_partner">
             <field name="ttype">many2one</field>
-            <field name="model" search="[('model','=','account.move.line')]"/>
+            <field name="model" search="[('name','=','account.move.line')]"/>
             <field name="expression">o.party and o.party.id</field>
             <field name="name">Party</field>
-            <field name="related_model" search="[('model', '=', 'party.party')]"/>
+            <field name="related_model" search="[('name', '=', 'party.party')]"/>
         </record>
         <record model="babi.expression" id="account_move_line_partner_name">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.move.line')]"/>
+            <field name="model" search="[('name','=','account.move.line')]"/>
             <field name="expression">o.party and o.party.rec_name</field>
             <field name="name">Party Name</field>
         </record>
         <record model="babi.expression" id="account_move_line_debit_credit">
             <field name="ttype">float</field>
-            <field name="model" search="[('model','=','account.move.line')]"/>
+            <field name="model" search="[('name','=','account.move.line')]"/>
             <field name="expression">o.debit - o.credit</field>
             <field name="name">Debit - Credit</field>
         </record>
         <record model="babi.expression" id="account_move_line_debit">
             <field name="ttype">float</field>
-            <field name="model" search="[('model','=','account.move.line')]"/>
+            <field name="model" search="[('name','=','account.move.line')]"/>
             <field name="expression">o.debit</field>
             <field name="name">Debit</field>
         </record>
         <record model="babi.expression" id="account_move_line_credit">
             <field name="ttype">float</field>
-            <field name="model" search="[('model','=','account.move.line')]"/>
+            <field name="model" search="[('name','=','account.move.line')]"/>
             <field name="expression">-o.credit</field>
             <field name="name">-Credit</field>
         </record>
         <record model="babi.expression" id="account_move_line_currency_name">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.move.line')]"/>
+            <field name="model" search="[('name','=','account.move.line')]"/>
             <field name="expression">o.currency.rec_name</field>
             <field name="name">Currency</field>
         </record>
         <record model="babi.expression" id="account_move_line_payment_type">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.move.line')]"/>
+            <field name="model" search="[('name','=','account.move.line')]"/>
             <field name="expression">o.payment_type and o.payment_type.rec_name</field>
             <field name="name">Payment Type</field>
         </record>
         <record model="babi.expression" id="account_move_line_period">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.move.line')]"/>
+            <field name="model" search="[('name','=','account.move.line')]"/>
             <field name="expression">o.period.rec_name</field>
             <field name="name">Period</field>
         </record>
         <record model="babi.expression" id="account_move_line_state">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.move.line')]"/>
+            <field name="model" search="[('name','=','account.move.line')]"/>
             <field name="expression">o.state</field>
             <field name="name">State</field>
         </record>
         <record model="babi.expression" id="account_move_line_account">
             <field name="ttype">many2one</field>
-            <field name="model" search="[('model','=','account.move.line')]"/>
+            <field name="model" search="[('name','=','account.move.line')]"/>
             <field name="expression">o.account.id</field>
             <field name="name">Account</field>
-            <field name="related_model" search="[('model', '=', 'account.account')]"/>
+            <field name="related_model" search="[('name', '=', 'account.account')]"/>
         </record>
         <record model="babi.expression" id="account_move_line_account_code">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.move.line')]"/>
+            <field name="model" search="[('name','=','account.move.line')]"/>
             <field name="expression">o.account.code</field>
             <field name="name">Account Code</field>
         </record>
         <record model="babi.expression" id="account_move_line_account_name">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.move.line')]"/>
+            <field name="model" search="[('name','=','account.move.line')]"/>
             <field name="expression">o.account.name</field>
             <field name="name">Account Name</field>
         </record>
         <record model="babi.expression" id="account_move_line_move">
             <field name="ttype">many2one</field>
-            <field name="model" search="[('model','=','account.move.line')]"/>
+            <field name="model" search="[('name','=','account.move.line')]"/>
             <field name="expression">o.move.id</field>
             <field name="name">Move</field>
-            <field name="related_model" search="[('model', '=', 'account.move')]"/>
+            <field name="related_model" search="[('name', '=', 'account.move')]"/>
         </record>
         <record model="babi.expression" id="account_move_line_move_name">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.move.line')]"/>
+            <field name="model" search="[('name','=','account.move.line')]"/>
             <field name="expression">o.move.number</field>
             <field name="name">Move Number</field>
         </record>
         <record model="babi.expression" id="account_move_line_move_journal_name">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','account.move.line')]"/>
+            <field name="model" search="[('name','=','account.move.line')]"/>
             <field name="expression">o.journal.rec_name</field>
             <field name="name">Journal</field>
         </record>
