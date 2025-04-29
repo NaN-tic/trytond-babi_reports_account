@@ -170,10 +170,6 @@ msgctxt "model:babi.expression,name:account_move_period"
 msgid "Period"
 msgstr "Període"
 
-msgctxt "model:babi.expression,name:account_move_post_number"
-msgid "Post Number"
-msgstr "Número confirmat"
-
 msgctxt "model:babi.expression,name:account_move_self"
 msgid "Move"
 msgstr "Moviment"

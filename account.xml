@@ -128,12 +128,6 @@
             <field name="expression">o.number</field>
             <field name="name">Number</field>
         </record>
-        <record model="babi.expression" id="account_move_post_number">
-            <field name="ttype">char</field>
-            <field name="model" search="[('name','=','account.move')]"/>
-            <field name="expression">o.post_number</field>
-            <field name="name">Post Number</field>
-        </record>
         <record model="babi.expression" id="account_move_year">
             <field name="ttype">char</field>
             <field name="model" search="[('name','=','account.move')]"/>
