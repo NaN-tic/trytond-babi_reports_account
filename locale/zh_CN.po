@@ -1,0 +1,292 @@
+#
+msgid ""
+msgstr ""
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "model:babi.dimension,name:move_line_due_month_week_day__day"
+msgid "Day"
+msgstr "天"
+
+msgctxt "model:babi.dimension,name:move_line_due_month_week_day__partner"
+msgid "Party"
+msgstr "参与者"
+
+msgctxt "model:babi.dimension,name:move_line_due_month_week_day__week"
+msgid "Week"
+msgstr "周"
+
+msgctxt "model:babi.dimension,name:move_line_due_month_week_day__year"
+msgid "Year"
+msgstr "年"
+
+msgctxt "model:babi.dimension,name:move_year_month_count__year"
+msgid "Year"
+msgstr "年"
+
+msgctxt "model:babi.dimension.column,name:move_year_month_count__month"
+msgid "Month"
+msgstr "月"
+
+msgctxt "model:babi.expression,name:account_move_date"
+msgid "Date"
+msgstr "日期"
+
+msgctxt "model:babi.expression,name:account_move_day"
+msgid "Day"
+msgstr "天"
+
+msgctxt "model:babi.expression,name:account_move_id"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "model:babi.expression,name:account_move_journal"
+msgid "Journal"
+msgstr "日记账"
+
+msgctxt "model:babi.expression,name:account_move_line"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "model:babi.expression,name:account_move_line_account"
+msgid "Account"
+msgstr "账户"
+
+msgctxt "model:babi.expression,name:account_move_line_account_code"
+msgid "Account Code"
+msgstr "科目代码"
+
+msgctxt "model:babi.expression,name:account_move_line_account_name"
+msgid "Account Name"
+msgstr "科目名称"
+
+msgctxt "model:babi.expression,name:account_move_line_credit"
+msgid "-Credit"
+msgstr "-贷方"
+
+msgctxt "model:babi.expression,name:account_move_line_currency_name"
+msgid "Currency"
+msgstr "货币"
+
+msgctxt "model:babi.expression,name:account_move_line_date"
+msgid "Date"
+msgstr "日期"
+
+msgctxt "model:babi.expression,name:account_move_line_day"
+msgid "Day"
+msgstr "天"
+
+msgctxt "model:babi.expression,name:account_move_line_debit"
+msgid "Debit"
+msgstr "借方"
+
+msgctxt "model:babi.expression,name:account_move_line_debit_credit"
+msgid "Debit - Credit"
+msgstr "借方 - 贷方"
+
+msgctxt "model:babi.expression,name:account_move_line_due_date"
+msgid "Due Date"
+msgstr "到期日"
+
+msgctxt "model:babi.expression,name:account_move_line_due_day"
+msgid "Due Day"
+msgstr "到期日"
+
+msgctxt "model:babi.expression,name:account_move_line_due_month"
+msgid "Due Month"
+msgstr "到期月"
+
+msgctxt "model:babi.expression,name:account_move_line_due_week"
+msgid "Due Week"
+msgstr "到期周"
+
+msgctxt "model:babi.expression,name:account_move_line_due_year"
+msgid "Due Year"
+msgstr "到期年"
+
+msgctxt "model:babi.expression,name:account_move_line_due_year_month"
+msgid "Due Year-Month"
+msgstr "到期年月"
+
+msgctxt "model:babi.expression,name:account_move_line_month"
+msgid "Month"
+msgstr "月"
+
+msgctxt "model:babi.expression,name:account_move_line_move"
+msgid "Move"
+msgstr "记账凭证"
+
+msgctxt "model:babi.expression,name:account_move_line_move_journal_name"
+msgid "Journal"
+msgstr "日记账"
+
+msgctxt "model:babi.expression,name:account_move_line_move_name"
+msgid "Move Number"
+msgstr "凭证编号"
+
+msgctxt "model:babi.expression,name:account_move_line_partner"
+msgid "Party"
+msgstr "参与者"
+
+msgctxt "model:babi.expression,name:account_move_line_partner_name"
+msgid "Party Name"
+msgstr "参与者名称"
+
+msgctxt "model:babi.expression,name:account_move_line_payment_type"
+msgid "Payment Type"
+msgstr "付款方式"
+
+msgctxt "model:babi.expression,name:account_move_line_period"
+msgid "Period"
+msgstr "分期"
+
+msgctxt "model:babi.expression,name:account_move_line_self"
+msgid "Move Line"
+msgstr "记账凭证明细"
+
+msgctxt "model:babi.expression,name:account_move_line_state"
+msgid "State"
+msgstr "状态"
+
+msgctxt "model:babi.expression,name:account_move_line_week"
+msgid "Week"
+msgstr "周"
+
+msgctxt "model:babi.expression,name:account_move_line_year"
+msgid "Year"
+msgstr "年"
+
+msgctxt "model:babi.expression,name:account_move_line_year_month"
+msgid "Year-Month"
+msgstr "年月"
+
+msgctxt "model:babi.expression,name:account_move_month"
+msgid "Month"
+msgstr "月"
+
+msgctxt "model:babi.expression,name:account_move_number"
+msgid "Number"
+msgstr "编号"
+
+msgctxt "model:babi.expression,name:account_move_period"
+msgid "Period"
+msgstr "分期"
+
+msgctxt "model:babi.expression,name:account_move_self"
+msgid "Move"
+msgstr "记账凭证"
+
+msgctxt "model:babi.expression,name:account_move_state"
+msgid "State"
+msgstr "状态"
+
+msgctxt "model:babi.expression,name:account_move_week"
+msgid "Week"
+msgstr "周"
+
+msgctxt "model:babi.expression,name:account_move_year"
+msgid "Year"
+msgstr "年"
+
+msgctxt "model:babi.expression,name:account_move_year_month"
+msgid "Year-Month"
+msgstr "年月"
+
+msgctxt "model:babi.filter,name:cash_accounts"
+msgid "Cash"
+msgstr "现金"
+
+msgctxt "model:babi.filter,name:cash_move_lines"
+msgid "Cash"
+msgstr "现金"
+
+msgctxt "model:babi.filter,name:creditor_accounts"
+msgid "Creditors"
+msgstr "债权人"
+
+msgctxt "model:babi.filter,name:creditor_move_lines"
+msgid "Creditors"
+msgstr "债权人"
+
+msgctxt "model:babi.filter,name:debtor_accounts"
+msgid "Debtors"
+msgstr "债务人"
+
+msgctxt "model:babi.filter,name:debtor_creditor_accounts"
+msgid "Debtors & Creditors"
+msgstr "债务人和债权人"
+
+msgctxt "model:babi.filter,name:debtor_creditor_move_lines"
+msgid "Debtors & Creditors"
+msgstr "债务人和债权人"
+
+msgctxt "model:babi.filter,name:debtor_move_lines"
+msgid "Debtors"
+msgstr "债务人"
+
+msgctxt "model:babi.filter,name:expense_accounts"
+msgid "Expense"
+msgstr "费用"
+
+msgctxt "model:babi.filter,name:expense_move_lines"
+msgid "Expense"
+msgstr "费用"
+
+msgctxt "model:babi.filter,name:income_accounts"
+msgid "Income"
+msgstr "收入"
+
+msgctxt "model:babi.filter,name:income_expense_accounts"
+msgid "Income & Expense"
+msgstr "收入和费用"
+
+msgctxt "model:babi.filter,name:income_expense_move_lines"
+msgid "Income & Expense"
+msgstr "收入和费用"
+
+msgctxt "model:babi.filter,name:income_move_lines"
+msgid "Income"
+msgstr "收入"
+
+msgctxt "model:babi.filter,name:unreconciled_creditor_accounts"
+msgid "Unreconciled Creditors"
+msgstr "未核销债权人"
+
+msgctxt "model:babi.filter,name:unreconciled_creditor_move_lines"
+msgid "Unreconciled Creditors"
+msgstr "未核销债权人"
+
+msgctxt "model:babi.filter,name:unreconciled_debtor_accounts"
+msgid "Unreconciled Debtors"
+msgstr "未核销债务人"
+
+msgctxt "model:babi.filter,name:unreconciled_debtor_creditor_accounts"
+msgid "Unreconciled Debtors & Creditors"
+msgstr "未核销债务人和债权人"
+
+msgctxt "model:babi.filter,name:unreconciled_debtor_creditor_move_lines"
+msgid "Unreconciled Debtors & Creditors"
+msgstr "未核销债务人和债权人"
+
+msgctxt "model:babi.filter,name:unreconciled_debtor_move_lines"
+msgid "Unreconciled Debtors"
+msgstr "未核销债务人"
+
+msgctxt "model:babi.measure,name:move_line_due_month_week_day__subtotal"
+msgid "Total amount"
+msgstr "总金额"
+
+msgctxt "model:babi.measure,name:move_year_month_count__count"
+msgid "Moves"
+msgstr "记账凭证"
+
+msgctxt "model:babi.report,name:move_line_due_month_week_day"
+msgid "Due Date Week"
+msgstr "到期日期周数"
+
+msgctxt "model:babi.report,name:move_year_month_count"
+msgid "Account Move Count"
+msgstr "会计凭证数"
