@@ -1,0 +1,292 @@
+#
+msgid ""
+msgstr ""
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "model:babi.dimension,name:move_line_due_month_week_day__day"
+msgid "Day"
+msgstr "Nap"
+
+msgctxt "model:babi.dimension,name:move_line_due_month_week_day__partner"
+msgid "Party"
+msgstr "Ügyfél"
+
+msgctxt "model:babi.dimension,name:move_line_due_month_week_day__week"
+msgid "Week"
+msgstr "Hét"
+
+msgctxt "model:babi.dimension,name:move_line_due_month_week_day__year"
+msgid "Year"
+msgstr "Év"
+
+msgctxt "model:babi.dimension,name:move_year_month_count__year"
+msgid "Year"
+msgstr "Év"
+
+msgctxt "model:babi.dimension.column,name:move_year_month_count__month"
+msgid "Month"
+msgstr "Hónap"
+
+msgctxt "model:babi.expression,name:account_move_date"
+msgid "Date"
+msgstr "Dátum"
+
+msgctxt "model:babi.expression,name:account_move_day"
+msgid "Day"
+msgstr "Nap"
+
+msgctxt "model:babi.expression,name:account_move_id"
+msgid "ID"
+msgstr "Azonosító"
+
+msgctxt "model:babi.expression,name:account_move_journal"
+msgid "Journal"
+msgstr "Napló"
+
+msgctxt "model:babi.expression,name:account_move_line"
+msgid "ID"
+msgstr "Azonosító"
+
+msgctxt "model:babi.expression,name:account_move_line_account"
+msgid "Account"
+msgstr "Számla"
+
+msgctxt "model:babi.expression,name:account_move_line_account_code"
+msgid "Account Code"
+msgstr "Főkönyvi számla kódja"
+
+msgctxt "model:babi.expression,name:account_move_line_account_name"
+msgid "Account Name"
+msgstr "Főkönyvi számla neve"
+
+msgctxt "model:babi.expression,name:account_move_line_credit"
+msgid "-Credit"
+msgstr "-Követel"
+
+msgctxt "model:babi.expression,name:account_move_line_currency_name"
+msgid "Currency"
+msgstr "Pénznem"
+
+msgctxt "model:babi.expression,name:account_move_line_date"
+msgid "Date"
+msgstr "Dátum"
+
+msgctxt "model:babi.expression,name:account_move_line_day"
+msgid "Day"
+msgstr "Nap"
+
+msgctxt "model:babi.expression,name:account_move_line_debit"
+msgid "Debit"
+msgstr "Tartozik"
+
+msgctxt "model:babi.expression,name:account_move_line_debit_credit"
+msgid "Debit - Credit"
+msgstr "Tartozik – Követel"
+
+msgctxt "model:babi.expression,name:account_move_line_due_date"
+msgid "Due Date"
+msgstr "Esedékesség"
+
+msgctxt "model:babi.expression,name:account_move_line_due_day"
+msgid "Due Day"
+msgstr "Esedékesség napja"
+
+msgctxt "model:babi.expression,name:account_move_line_due_month"
+msgid "Due Month"
+msgstr "Esedékesség hónapja"
+
+msgctxt "model:babi.expression,name:account_move_line_due_week"
+msgid "Due Week"
+msgstr "Esedékesség hete"
+
+msgctxt "model:babi.expression,name:account_move_line_due_year"
+msgid "Due Year"
+msgstr "Esedékesség éve"
+
+msgctxt "model:babi.expression,name:account_move_line_due_year_month"
+msgid "Due Year-Month"
+msgstr "Esedékesség éve-hónapja"
+
+msgctxt "model:babi.expression,name:account_move_line_month"
+msgid "Month"
+msgstr "Hónap"
+
+msgctxt "model:babi.expression,name:account_move_line_move"
+msgid "Move"
+msgstr "Bizonylat"
+
+msgctxt "model:babi.expression,name:account_move_line_move_journal_name"
+msgid "Journal"
+msgstr "Napló"
+
+msgctxt "model:babi.expression,name:account_move_line_move_name"
+msgid "Move Number"
+msgstr "Könyvelési bizonylat száma"
+
+msgctxt "model:babi.expression,name:account_move_line_partner"
+msgid "Party"
+msgstr "Ügyfél"
+
+msgctxt "model:babi.expression,name:account_move_line_partner_name"
+msgid "Party Name"
+msgstr "Ügyfél neve"
+
+msgctxt "model:babi.expression,name:account_move_line_payment_type"
+msgid "Payment Type"
+msgstr "Fizetési mód"
+
+msgctxt "model:babi.expression,name:account_move_line_period"
+msgid "Period"
+msgstr "Periódus"
+
+msgctxt "model:babi.expression,name:account_move_line_self"
+msgid "Move Line"
+msgstr "Tétel"
+
+msgctxt "model:babi.expression,name:account_move_line_state"
+msgid "State"
+msgstr "Állapot"
+
+msgctxt "model:babi.expression,name:account_move_line_week"
+msgid "Week"
+msgstr "Hét"
+
+msgctxt "model:babi.expression,name:account_move_line_year"
+msgid "Year"
+msgstr "Év"
+
+msgctxt "model:babi.expression,name:account_move_line_year_month"
+msgid "Year-Month"
+msgstr "Év-hónap"
+
+msgctxt "model:babi.expression,name:account_move_month"
+msgid "Month"
+msgstr "Hónap"
+
+msgctxt "model:babi.expression,name:account_move_number"
+msgid "Number"
+msgstr "Szám"
+
+msgctxt "model:babi.expression,name:account_move_period"
+msgid "Period"
+msgstr "Periódus"
+
+msgctxt "model:babi.expression,name:account_move_self"
+msgid "Move"
+msgstr "Bizonylat"
+
+msgctxt "model:babi.expression,name:account_move_state"
+msgid "State"
+msgstr "Állapot"
+
+msgctxt "model:babi.expression,name:account_move_week"
+msgid "Week"
+msgstr "Hét"
+
+msgctxt "model:babi.expression,name:account_move_year"
+msgid "Year"
+msgstr "Év"
+
+msgctxt "model:babi.expression,name:account_move_year_month"
+msgid "Year-Month"
+msgstr "Év-hónap"
+
+msgctxt "model:babi.filter,name:cash_accounts"
+msgid "Cash"
+msgstr "Pénztár"
+
+msgctxt "model:babi.filter,name:cash_move_lines"
+msgid "Cash"
+msgstr "Pénztár"
+
+msgctxt "model:babi.filter,name:creditor_accounts"
+msgid "Creditors"
+msgstr "Hitelezők"
+
+msgctxt "model:babi.filter,name:creditor_move_lines"
+msgid "Creditors"
+msgstr "Hitelezők"
+
+msgctxt "model:babi.filter,name:debtor_accounts"
+msgid "Debtors"
+msgstr "Adósok"
+
+msgctxt "model:babi.filter,name:debtor_creditor_accounts"
+msgid "Debtors & Creditors"
+msgstr "Adósok és hitelezők"
+
+msgctxt "model:babi.filter,name:debtor_creditor_move_lines"
+msgid "Debtors & Creditors"
+msgstr "Adósok és hitelezők"
+
+msgctxt "model:babi.filter,name:debtor_move_lines"
+msgid "Debtors"
+msgstr "Adósok"
+
+msgctxt "model:babi.filter,name:expense_accounts"
+msgid "Expense"
+msgstr "Költségek"
+
+msgctxt "model:babi.filter,name:expense_move_lines"
+msgid "Expense"
+msgstr "Költségek"
+
+msgctxt "model:babi.filter,name:income_accounts"
+msgid "Income"
+msgstr "eredménykimutatás"
+
+msgctxt "model:babi.filter,name:income_expense_accounts"
+msgid "Income & Expense"
+msgstr "Bevételek és ráfordítások"
+
+msgctxt "model:babi.filter,name:income_expense_move_lines"
+msgid "Income & Expense"
+msgstr "Bevételek és ráfordítások"
+
+msgctxt "model:babi.filter,name:income_move_lines"
+msgid "Income"
+msgstr "eredménykimutatás"
+
+msgctxt "model:babi.filter,name:unreconciled_creditor_accounts"
+msgid "Unreconciled Creditors"
+msgstr "Nem egyeztetett hitelezők"
+
+msgctxt "model:babi.filter,name:unreconciled_creditor_move_lines"
+msgid "Unreconciled Creditors"
+msgstr "Nem egyeztetett hitelezők"
+
+msgctxt "model:babi.filter,name:unreconciled_debtor_accounts"
+msgid "Unreconciled Debtors"
+msgstr "Nem egyeztetett adósok"
+
+msgctxt "model:babi.filter,name:unreconciled_debtor_creditor_accounts"
+msgid "Unreconciled Debtors & Creditors"
+msgstr "Nem egyeztetett adósok és hitelezők"
+
+msgctxt "model:babi.filter,name:unreconciled_debtor_creditor_move_lines"
+msgid "Unreconciled Debtors & Creditors"
+msgstr "Nem egyeztetett adósok és hitelezők"
+
+msgctxt "model:babi.filter,name:unreconciled_debtor_move_lines"
+msgid "Unreconciled Debtors"
+msgstr "Nem egyeztetett adósok"
+
+msgctxt "model:babi.measure,name:move_line_due_month_week_day__subtotal"
+msgid "Total amount"
+msgstr "Teljes összeg"
+
+msgctxt "model:babi.measure,name:move_year_month_count__count"
+msgid "Moves"
+msgstr "Mozgások"
+
+msgctxt "model:babi.report,name:move_line_due_month_week_day"
+msgid "Due Date Week"
+msgstr "Esedékesség dátumának hete"
+
+msgctxt "model:babi.report,name:move_year_month_count"
+msgid "Account Move Count"
+msgstr "Könyvelési bizonylatok száma"
